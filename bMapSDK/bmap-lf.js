@@ -25,11 +25,6 @@
 
         initialize: function (options) {
             L.setOptions(this, options);
-
-            if (options.accessToken) {
-                bmapjs.accessToken = options.accessToken;
-            }
-
             // setup throttling the update event when panning
             this._throttledUpdate = L.Util.throttle(this._update, this.options.updateInterval, this);
         },
