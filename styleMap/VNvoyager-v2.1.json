@@ -3070,7 +3070,7 @@
   "metadata": {
     "maptiler:copyright": "This style was generated on MapTiler Cloud. Usage outside of MapTiler Cloud or MapTiler Server requires valid MapTiler Data package: https://www.maptiler.com/data/ -- please contact us."
   },
-  "glyphs": "https://bmap-tiles-dn-1.busmap.vn/fonts/{fontstack}/{range}.pbf",
+  "glyphs": "https://bmap-tiles-a.busmap.vn/fonts/{fontstack}/{range}.pbf",
   "sprite": "https://api.maptiler.com/maps/923a7c8f-6606-4df1-82ca-81746fd64716/sprite",
   "center": [106.70960974073967, 10.77440716499406],
   "zoom": 13.410552067971446
