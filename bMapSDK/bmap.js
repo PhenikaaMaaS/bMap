@@ -394,7 +394,7 @@
         },
       },
       O = {
-        API_URL: 'https://tiles.bMap.io',
+        API_URL: 'https://bmap-service-1.busmap.vn',
         get EVENTS_URL() {
           return 'https://rsapi.bMap.io';
         },
@@ -441,7 +441,7 @@
         this._createSkuToken();
     };
     function K(t) {
-      return 0 === t.indexOf('https://tiles.bMap.io');
+      return 0 === t.indexOf('https://bmap-service-1.busmap.vn');
     }
     (N.prototype._createSkuToken = function () {
       var t = (function () {
@@ -489,8 +489,8 @@
           : ((i.path += '' + e + r), H(i));
       }),
       (N.prototype.normalizeTileURL = function (t, e, r) {
-        if ((this._isSkuTokenExpired() && this._createSkuToken(), !e || !K(e)))
-          return t;
+        // if ((this._isSkuTokenExpired() && this._createSkuToken(), !e || !K(e)))
+        //   return t;
         var n = J(t),
           i = L.devicePixelRatio >= 2 || 512 === r ? '@2x' : '',
           a = D.supported ? '.webp' : '$1';
@@ -500,7 +500,7 @@
           O.REQUIRE_ACCESS_TOKEN &&
             (O.ACCESS_TOKEN || this._customAccessToken) &&
             this._skuToken &&
-            n.params.push('sku=' + this._skuToken),
+            n.params.push('sku=' + this._skuToken),n.params.push('platform=web'),
           this._makeAPIURL(n, this._customAccessToken)
         );
       }),
@@ -538,9 +538,9 @@
           );
         return (
           (t.params = t.params.filter(function (t) {
-            return -1 === t.indexOf('api_key');
+            return -1 === t.indexOf('appSecret');
           })),
-          t.params.push('api_key=' + e),
+          t.params.push('appSecret=' + e),
           H(t)
         );
       });
