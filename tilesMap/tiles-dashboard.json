@@ -1596,7 +1596,7 @@
     20037471.205137063
   ],
   "tiles": [
-    "https://bmap-tiles-a.busmap.vn/data/vietnam/{z}/{x}/{y}.mvt"
+    "https://bmap-tiles-a.busmap.vn/data/asean/{z}/{x}/{y}.mvt"
   ],
   "logo": "https://api.maptiler.com/resources/logo.svg"
 }
