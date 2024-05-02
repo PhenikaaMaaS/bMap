@@ -4,7 +4,7 @@
     "name": "My Voyager",
     "sources": {
       "openmaptiles": {
-        "url": "https://cdn.jsdelivr.net/gh/PhenikaaMaaS/bmap/tilesMap/tiles-maptiler-planet-TL.json",
+        "url": "https://storage.busmap.vn/bmap/tilesMap/tiles-maptiler-planet-TL.json",
         "type": "vector"
       },
       "maptiler_attribution": {

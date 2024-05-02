@@ -5,7 +5,7 @@
 
   "sources": {
     "openmaptiles": {
-      "url": "https://cdn.jsdelivr.net/gh/PhenikaaMaaS/bmap/tilesMap/tiles-maptiler-planet.json",
+      "url": "https://storage.busmap.vn/bmap/tilesMap/tiles-maptiler-planet.json",
       "type": "vector"
     },
     "maptiler_attribution": {
@@ -14,7 +14,7 @@
     },
     "busmap_maptiles": {
       "type": "vector",
-      "url": "https://cdn.jsdelivr.net/gh/PhenikaaMaaS/bmap/tilesMap/tiles-maptiler-planet.json"
+      "url": "https://storage.busmap.vn/bmap/tilesMap/tiles-maptiler-planet.json"
     },
     "island": {
       "type": "geojson",
@@ -3684,7 +3684,7 @@
     "maptiler:copyright": "This style was generated on MapTiler Cloud. Usage outside of MapTiler Cloud or MapTiler Server requires valid MapTiler Data package: https://www.maptiler.com/data/ -- please contact us."
   },
   "glyphs": "https://bmap-tiles-a.busmap.vn/fonts/{fontstack}/{range}.pbf",
-  "sprite": "https://cdn.jsdelivr.net/gh/PhenikaaMaaS/bmap/styleMap/sprite",
+  "sprite": "https://storage.busmap.vn/bmap/styleMap/sprite",
   "center": [106.70960974073967, 10.77440716499406],
   "zoom": 13.410552067971446
 }
